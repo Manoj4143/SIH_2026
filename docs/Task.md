@@ -18,13 +18,13 @@
 - [x] Evaluate trained checkpoints against meteorological metrics ($\text{CSI} > 0.60$ at $\ge 35\text{ dBZ}$, POD, FAR)[cite: 3].
 
 ## Phase 3: FastAPI Backend & PostGIS Integration (Weeks 5–6)
-- [ ] Set up PostgreSQL database with PostGIS spatial extensions enabled[cite: 3].
-- [ ] Build dynamic PNG tile renderer service converting Cloud-Optimized GeoTIFFs (COG) to map tiles in $<850\text{ ms}$[cite: 3].
-- [ ] Implement `GET /api/v1/nowcast/latest` REST endpoint for point forecast queries[cite: 3].
-- [ ] Implement `GET /api/v1/radar/tile/{z}/{x}/{y}` REST endpoint for map tile streaming[cite: 3].
-- [ ] Implement `GET /api/v1/alerts/active` REST endpoint returning GeoJSON risk polygons[cite: 3].
-- [ ] Implement `POST /api/v1/inference/trigger` manual ETL trigger endpoint[cite: 3].
-- [ ] Implement automated 15-minute background inference worker in `nowcast_engine/`[cite: 3].
+- [x] Set up PostgreSQL database with PostGIS spatial extensions enabled[cite: 3].
+- [x] Build dynamic PNG tile renderer service converting Cloud-Optimized GeoTIFFs (COG) to map tiles in $<850\text{ ms}$[cite: 3].
+- [x] Implement `GET /api/v1/nowcast/latest` REST endpoint for point forecast queries[cite: 3].
+- [x] Implement `GET /api/v1/radar/tile/{z}/{x}/{y}` REST endpoint for map tile streaming[cite: 3].
+- [x] Implement `GET /api/v1/alerts/active` REST endpoint returning GeoJSON risk polygons[cite: 3].
+- [x] Implement `POST /api/v1/inference/trigger` manual ETL trigger endpoint[cite: 3].
+- [x] Implement automated 15-minute background inference worker in `nowcast_engine/`[cite: 3].
 
 ## Phase 4: Web Dashboard UI Refactoring (`weatherwebsite`) (Week 7)
 - [ ] Replace static UI containers with interactive full-screen Leaflet.js canvas initialized with CartoDB Positron base tiles[cite: 3].
