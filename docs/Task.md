@@ -1,12 +1,12 @@
 # Engineering Task Checklist (TASK.md)
 
 ## Phase 1: Data Engine & Preprocessing Microservice (Weeks 1–2)
-- [ ] Automate data ingestion scripts for MOSDAC INSAT-3D, ERA5, and Blitzortung feeds[cite: 3].
-- [ ] Build Py-ART Cartesian gridding scripts to process raw radar reflectivity into $128 \times 128$ grids[cite: 3].
-- [ ] Implement Py-ART ground clutter filtering and Doppler velocity processing[cite: 3].
-- [ ] Execute spatial re-projection from native coordinates (EPSG:4326) to Web Mercator (EPSG:3857)[cite: 3].
-- [ ] Implement Gaussian Kernel Density Estimation (KDE) transform for lightning strike points[cite: 3].
-- [ ] Construct dataset loaders to normalize and output 8-channel PyTorch tensors $[8, 128, 128]$[cite: 3].
+- [x] Automate data ingestion scripts for MOSDAC INSAT-3D, ERA5, and Blitzortung feeds[cite: 3].
+- [x] Build Py-ART Cartesian gridding scripts to process raw radar reflectivity into $128 \times 128$ grids[cite: 3].
+- [x] Implement Py-ART ground clutter filtering and Doppler velocity processing[cite: 3].
+- [x] Execute spatial re-projection from native coordinates (EPSG:4326) to Web Mercator (EPSG:3857)[cite: 3].
+- [x] Implement Gaussian Kernel Density Estimation (KDE) transform for lightning strike points[cite: 3].
+- [x] Construct dataset loaders to normalize and output 8-channel PyTorch tensors $[8, 128, 128]$[cite: 3].
 
 ## Phase 2: Deep Learning Model Architecture & Training (Weeks 3–4)
 - [ ] Implement Depthwise Separable Conv2D Spatial Encoder in PyTorch[cite: 3].
