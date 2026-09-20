@@ -9,13 +9,13 @@
 - [x] Construct dataset loaders to normalize and output 8-channel PyTorch tensors $[8, 128, 128]$[cite: 3].
 
 ## Phase 2: Deep Learning Model Architecture & Training (Weeks 3–4)
-- [ ] Implement Depthwise Separable Conv2D Spatial Encoder in PyTorch[cite: 3].
-- [ ] Construct 2-Layer ConvLSTM Bottleneck for temporal trajectory tracking[cite: 3].
-- [ ] Implement Skip-Connected U-Net Decoder with Dual Output Heads (Reflectivity & Lightning Density)[cite: 3].
-- [ ] Configure PyTorch Automatic Mixed Precision (`torch.cuda.amp`) FP16 training pipeline[cite: 3].
-- [ ] Implement composite Focal Loss ($\gamma=2.0, \alpha=0.75$) + SSIM loss function[cite: 3].
-- [ ] Train model on host NVIDIA RTX 3050 GPU, capping peak VRAM usage at $2.48\text{ GB}$[cite: 3].
-- [ ] Evaluate trained checkpoints against meteorological metrics ($\text{CSI} > 0.60$ at $\ge 35\text{ dBZ}$, POD, FAR)[cite: 3].
+- [x] Implement Depthwise Separable Conv2D Spatial Encoder in PyTorch[cite: 3].
+- [x] Construct 2-Layer ConvLSTM Bottleneck for temporal trajectory tracking[cite: 3].
+- [x] Implement Skip-Connected U-Net Decoder with Dual Output Heads (Reflectivity & Lightning Density)[cite: 3].
+- [x] Configure PyTorch Automatic Mixed Precision (`torch.cuda.amp`) FP16 training pipeline[cite: 3].
+- [x] Implement composite Focal Loss ($\gamma=2.0, \alpha=0.75$) + SSIM loss function[cite: 3].
+- [x] Train model on host NVIDIA RTX 3050 GPU, capping peak VRAM usage at $2.48\text{ GB}$[cite: 3].
+- [x] Evaluate trained checkpoints against meteorological metrics ($\text{CSI} > 0.60$ at $\ge 35\text{ dBZ}$, POD, FAR)[cite: 3].
 
 ## Phase 3: FastAPI Backend & PostGIS Integration (Weeks 5–6)
 - [ ] Set up PostgreSQL database with PostGIS spatial extensions enabled[cite: 3].
